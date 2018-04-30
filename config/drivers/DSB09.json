@@ -1,0 +1,324 @@
+{
+  "id": "DSB09",
+  "name": {
+    "en": "Home Energy Meter Gen2"
+  },
+  "zwave": {
+    "manufacturerId": [
+      134
+    ],
+    "productTypeId": [
+      2
+    ],
+    "productId": [
+      9
+    ],
+    "learnmode": {
+      "instruction": {
+        "en": "Turn the primary controller of Z-Wave network into inclusion mode, short press the product’s Action button that you can find on the product's housing."
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "multiChannelNodes": {
+      "1": {
+        "class": "sensor",
+        "capabilities": [
+          "measure_power",
+          "meter_power",
+          "measure_voltage",
+          "measure_current"
+        ],
+        "name": {
+          "en": "Clamp 01"
+        },
+        "icon": "/drivers/ZW095C/assets/icon.svg",
+        "settings": []
+      }
+    }
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_power",
+    "meter_power",
+    "measure_voltage",
+    "measure_current"
+  ],
+  "settings": [{
+      "id": 2,
+      "type": "dropdown",
+      "value": "1",
+      "label": {
+        "en": "Energy detection mode for para 101-103."
+      },
+      "hint": {
+        "en": "Set the energy detection mode for the measure reports of parameter 101 to 103."
+      },
+      "_size": 1,
+      "values": [{
+          "id": "0",
+          "label": {
+            "en": "Report power, report the absolute value of energy."
+          }
+        },
+        {
+          "id": "1",
+          "label": {
+            "en": "Report positive/negative power, report the algebraic sum of energy."
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "value": true,
+      "label": {
+        "en": "Enable/disable selective reporting only when power change reaches a certain threshold or percentage"
+      },
+      "hint": {
+        "en": "Enable/disable selective reporting only when power change reaches a certain threshold or percentage set in parameter 4 to 11. "
+      },
+      "_size": 1,
+      "type": "checkbox"
+    },
+    {
+      "id": 4,
+      "value": 100,
+      "label": {
+        "en": "Threshold change in W to induce a automatic report - Whole HEM"
+      },
+      "hint": {
+        "en": "Threshold change in wattage to induce a automatic report for total power report."
+      },
+      "attr": {
+        "min": 0,
+        "max": 60000
+      },
+      "_size": 2,
+      "type": "number"
+    },
+    {
+      "id": 5,
+      "value": 100,
+      "label": {
+        "en": "Threshold change in W to induce a automatic report - Clamp 1"
+      },
+      "hint": {
+        "en": "Threshold change in wattage to induce a automatic report for the power report of Clamp 1."
+      },
+      "attr": {
+        "min": 0,
+        "max": 60000
+      },
+      "_size": 2,
+      "type": "number"
+    },
+    {
+      "id": 6,
+      "value": 100,
+      "label": {
+        "en": "Threshold change in W to induce a automatic report - Clamp 2"
+      },
+      "hint": {
+        "en": "Threshold change in wattage to induce a automatic report for the power report of Clamp 2."
+      },
+      "attr": {
+        "min": 0,
+        "max": 60000
+      },
+      "_size": 2,
+      "type": "number"
+    },
+    {
+      "id": 7,
+      "value": 100,
+      "label": {
+        "en": "Threshold change in W to induce a automatic report - Clamp 3"
+      },
+      "hint": {
+        "en": "Threshold change in wattage to induce a automatic report for the power report of Clamp 3."
+      },
+      "attr": {
+        "min": 0,
+        "max": 60000
+      },
+      "_size": 2,
+      "type": "number"
+    },
+    {
+      "id": 8,
+      "value": 80,
+      "label": {
+        "en": "Percentage change in W to induce a automatic report - Whole HEM"
+      },
+      "hint": {
+        "en": "Percentage change in wattage to induce a automatic report for total power report."
+      },
+      "attr": {
+        "min": 0,
+        "max": 100
+      },
+      "_size": 1,
+      "type": "number"
+    },
+    {
+      "id": 9,
+      "value": 80,
+      "label": {
+        "en": "Percentage change in W to induce a automatic report - Clamp 1"
+      },
+      "hint": {
+        "en": "Percentage change in wattage to induce an automatic report for the power report of Clamp 1."
+      },
+      "attr": {
+        "min": 0,
+        "max": 100
+      },
+      "_size": 1,
+      "type": "number"
+    },
+    {
+      "id": 10,
+      "value": 80,
+      "type": "number",
+      "label": {
+        "en": "Percentage change in W to induce a automatic report - Clamp 2"
+      },
+      "hint": {
+        "en": "Percentage change in wattage to induce an automatic report for the power report of Clamp 2."
+      },
+      "_size": 1,
+      "attr": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "id": 11,
+      "value": 80,
+      "label": {
+        "en": "Percentage change in W to induce a automatic report - Clamp 3"
+      },
+      "hint": {
+        "en": "Percentage change in wattage to induce a automatic report for the power report of Clamp 3."
+      },
+      "attr": {
+        "min": 0,
+        "max": 100
+      },
+      "_size": 1,
+      "type": "number"
+    },
+    {
+      "id": 101,
+      "value": 258,
+      "label": {
+        "en": "Group 1 Reports"
+      },
+      "hint": {
+        "en": "To set which reports need to be sent in Report group 1."
+      },
+      "_size": 4,
+      "type": "number"
+    },
+    {
+      "id": 102,
+      "value": 589835,
+      "label": {
+        "en": "Group 2 Reports"
+      },
+      "hint": {
+        "en": "To set which reports need to be sent in Report group 2."
+      },
+      "_size": 4,
+      "type": "number"
+    },
+    {
+      "id": 103,
+      "value": 2049,
+      "label": {
+        "en": "Group 3 Reports"
+      },
+      "hint": {
+        "en": "To set which report need to be sent in Report group 3."
+      },
+      "_size": 4,
+      "type": "number"
+    },
+
+    {
+      "id": 111,
+      "value": 300,
+      "label": {
+        "en": "Set the interval time of sending report."
+      },
+      "hint": {
+        "en": "Set the interval time of sending report in Report group 1."
+      },
+      "_size": 4,
+      "type": "number"
+    },
+    {
+      "id": 112,
+      "value": 300,
+      "label": {
+        "en": "Set the interval time of sending report."
+      },
+      "hint": {
+        "en": "Set the interval time of sending report in Report group 2."
+      },
+      "_size": 4,
+      "type": "number"
+    },
+    {
+      "id": 113,
+      "value": 300,
+      "label": {
+        "en": "Set the interval time of sending report."
+      },
+      "hint": {
+        "en": "Set the interval time of sending report in Report group 3."
+      },
+      "_size": 4,
+      "type": "number"
+    },
+
+    {
+      "id": 200,
+      "value": false,
+      "label": {
+        "en": "Partner  ID"
+      },
+      "hint": {
+        "en": "Partner  ID."
+      },
+      "_size": 1,
+      "type": "checkbox"
+    },
+    {
+      "id": 252,
+      "value": false,
+      "label": {
+        "en": "Enable/Disable Lock Configuration"
+      },
+      "hint": {
+        "en": "Enable/Disable Lock Configuration."
+      },
+      "_size": 1,
+      "type": "checkbox"
+    },
+    {
+      "id": 255,
+      "value": false,
+      "label": {
+        "en": "Reset to default factory setting"
+      },
+      "hint": {
+        "en": "Reset to default factory setting."
+      },
+      "_size": 4,
+      "type": "checkbox"
+    }
+  ]
+}

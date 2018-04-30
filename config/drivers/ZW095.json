@@ -1,7 +1,7 @@
 {
-  "id": "ZW095C",
+  "id": "ZW095",
   "name": {
-    "en": "Home Energy Meter Gen2"
+    "en": "Home Energy Meter Gen5"
   },
   "zwave": {
     "manufacturerId": [
@@ -11,7 +11,7 @@
       2
     ],
     "productId": [
-      28
+      95
     ],
     "learnmode": {
       "instruction": {
@@ -38,10 +38,6 @@
       }
     }
   },
-  "images": {
-    "large": "/drivers/ZW095C/assets/images/large.png",
-    "small": "/drivers/ZW095C/assets/images/small.png"
-  },
   "class": "sensor",
   "capabilities": [
     "measure_power",
@@ -52,7 +48,7 @@
   "settings": [{
       "id": 2,
       "type": "dropdown",
-      "value": "0",
+      "value": "1",
       "label": {
         "en": "Energy detection mode for para 101-103."
       },
@@ -88,7 +84,7 @@
     },
     {
       "id": 4,
-      "value": 50,
+      "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Whole HEM"
       },
@@ -104,7 +100,7 @@
     },
     {
       "id": 5,
-      "value": 50,
+      "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Clamp 1"
       },
@@ -120,7 +116,7 @@
     },
     {
       "id": 6,
-      "value": 50,
+      "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Clamp 2"
       },
@@ -136,7 +132,7 @@
     },
     {
       "id": 7,
-      "value": 50,
+      "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Clamp 3"
       },
@@ -216,7 +212,7 @@
     },
     {
       "id": 101,
-      "value": 2,
+      "value": 258,
       "label": {
         "en": "Group 1 Reports"
       },
@@ -228,14 +224,14 @@
     },
     {
       "id": 102,
-      "value": 12,
+      "value": 589835,
       "label": {
         "en": "Group 2 Reports"
       },
       "hint": {
         "en": "To set which reports need to be sent in Report group 2."
       },
-      "_size": 4,
+      "_size": 2049,
       "type": "number"
     },
     {

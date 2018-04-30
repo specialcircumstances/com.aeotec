@@ -4,6 +4,14 @@ const path = require('path');
 const ZwaveDriver = require('homey-zwavedriver');
 
 // http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/1425/Aeon%20Labs%20Smart%20Switch%206%20manual%20(2)%20.pdf
+//Aeon Labs Home Energy Meter DSB28 - Gen 2
+//Product Identifier: DSB28
+// EU Version / AUS Version ??
+//Product Type ID: 0x0002
+//Product ID: 0x0001
+// US version ??
+//Product Type ID: 0x0002
+//Product ID: 0x001C 
 
 module.exports = new ZwaveDriver(path.basename(__dirname), {
   debug: false,
