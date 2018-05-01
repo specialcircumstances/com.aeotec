@@ -11,7 +11,7 @@ const ZwaveDriver = require('homey-zwavedriver');
 
 
 module.exports = new ZwaveDriver(path.basename(__dirname), {
-  debug: false,
+  debug: true,
   capabilities: {
     measure_power: {
       command_class: 'COMMAND_CLASS_METER',
@@ -19,7 +19,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
       command_get_parser: () => ({
         'Sensor Type': 'Electric meter',
         'Properties1': {
-          'Scale': 2,
+          'Scale': 2
         }
       }),
       command_report: 'METER_REPORT',
@@ -40,7 +40,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
       command_get_parser: () => ({
         'Sensor Type': 'Electric meter',
         'Properties1': {
-          'Scale': 0,
+          'Scale': 0
         }
       }),
       command_report: 'METER_REPORT',
@@ -61,7 +61,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
       command_get_parser: () => ({
         'Sensor Type': 'Electric meter',
         'Properties1': {
-          'Scale': 4,
+          'Scale': 4
         }
       }),
       command_report: 'METER_REPORT',
@@ -82,7 +82,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
       command_get_parser: () => ({
         'Sensor Type': 'Electric meter',
         'Properties1': {
-          'Scale': 5,
+          'Scale': 5
         }
       }),
       command_report: 'METER_REPORT',
@@ -196,4 +196,24 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
       size: 4
     },
   },
+});
+
+
+Homey.manager('flow').on('action.ZW095C_reset_meter', (callback, args) => {
+	const node = module.exports.nodes[args.device.token];
+
+	if (node &&
+		node.instance &&
+		node.instance.CommandClass &&
+		node.instance.CommandClass.COMMAND_CLASS_METER) {
+		node.instance.CommandClass.COMMAND_CLASS_METER.METER_RESET({}, (err, result) => {
+			if (err) return callback(err);
+
+			// If properly transmitted, change the setting and finish flow card
+			if (result === 'TRANSMIT_COMPLETE_OK') {
+				return callback(null, true);
+			}
+			return callback('unknown_response');
+		});
+	} else return callback('unknown_error');
 });

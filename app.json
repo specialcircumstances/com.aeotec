@@ -348,7 +348,7 @@
     {
       "id": "DSB09",
       "name": {
-        "en": "Home Energy Meter Gen2"
+        "en": "Home Energy Meter"
       },
       "zwave": {
         "manufacturerId": [
@@ -380,7 +380,7 @@
             "name": {
               "en": "Clamp 01"
             },
-            "icon": "/drivers/ZW095C/assets/icon.svg",
+            "icon": "/drivers/DSB09/assets/icon.svg",
             "settings": []
           }
         }
@@ -705,7 +705,7 @@
             "name": {
               "en": "Clamp 01"
             },
-            "icon": "/drivers/ZW095C/assets/icon.svg",
+            "icon": "/drivers/DSB28/assets/icon.svg",
             "settings": []
           }
         }
@@ -2579,7 +2579,7 @@
             "name": {
               "en": "Clamp 01"
             },
-            "icon": "/drivers/ZW095C/assets/icon.svg",
+            "icon": "/drivers/ZW095/assets/icon.svg",
             "settings": []
           }
         }
