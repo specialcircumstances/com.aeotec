@@ -54,35 +54,35 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 		},
 	},
 	settings: {
-		2: {
+		"2": {
 			index: 2,
 			size: 1,
 		},
-		3: {
+		"3": {
 			index: 3,
 			size: 2,
 		},
-		4: {
+		"4": {
 			index: 4,
 			size: 1,
 		},
-		102: {
+		"102": {
 			index: 102,
 			size: 4,
 		},
-		103: {
+		"103": {
 			index: 103,
 			size: 4,
 		},
-		111: {
+		"111": {
 			index: 111,
 			size: 4,
 		},
-		112: {
+		"112": {
 			index: 112,
 			size: 4,
 		},
-		113: {
+		"113": {
 			index: 113,
 			size: 4,
 		},

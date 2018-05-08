@@ -41,19 +41,19 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 		},
 	},
 	settings: {
-		1: {
+		"1": {
 			index: 1,
 			size: 1,
 		},
-		39: {
+		"39": {
 			index: 39,
 			size: 1,
 		},
-		101: {
+		"101": {
 			index: 101,
 			size: 1,
 		},
-		111: {
+		"111": {
 			index: 111,
 			size: 4,
 		},

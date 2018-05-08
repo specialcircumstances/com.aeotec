@@ -79,57 +79,57 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 		},
 	},
 	settings: {
-		3: {
+		"3": {
 			index: 3,
 			size: 2,
 		},
-		4: {
+		"4": {
 			index: 4,
 			size: 1,
 		},
-		40: {
+		"40": {
 			index: 40,
 			size: 1,
 		},
-		41: {
+		"41": {
 			index: 41,
 			size: 2,
 			parser: newValue => new Buffer([newValue, 0]),
 			signed: false,
 		},
-		42: {
+		"42": {
 			index: 42,
 			size: 2,
 			parser: newValue => new Buffer([newValue, 0]),
 		},
-		43: {
+		"43": {
 			index: 43,
 			size: 2,
 			parser: newValue => new Buffer([newValue, 0]),
 			signed: false,
 		},
-		44: {
+		"44": {
 			index: 44,
 			size: 2,
 			parser: newValue => new Buffer([newValue, 0]),
 		},
-		102: {
+		"102": {
 			index: 102,
 			size: 4,
 		},
-		103: {
+		"103": {
 			index: 103,
 			size: 4,
 		},
-		111: {
+		"111": {
 			index: 111,
 			size: 4,
 		},
-		112: {
+		"112": {
 			index: 112,
 			size: 4,
 		},
-		113: {
+		"113": {
 			index: 113,
 			size: 4,
 		},

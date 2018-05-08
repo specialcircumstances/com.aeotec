@@ -68,135 +68,135 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 		},
 	},
 	settings: {
-		3: {
+		"3": {
 			index: 3,
 			size: 1,
 		},
-		4: {
+		"4": {
 			index: 4,
 			size: 1,
 		},
-		20: {
+		"20": {
 			index: 20,
 			size: 1,
 		},
-		80: {
+		"80": {
 			index: 80,
 			size: 1,
 		},
-		81: {
+		"81": {
 			index: 81,
 			size: 1,
 		},
-		82: {
+		"82": {
 			index: 82,
 			size: 1,
 		},
-		85: {
+		"85": {
 			index: 85,
 			size: 4,
 		},
-		86: {
+		"86": {
 			index: 86,
 			size: 4,
 		},
-		90: {
+		"90": {
 			index: 90,
 			size: 1,
 		},
-		91: {
+		"91": {
 			index: 91,
 			size: 2,
 		},
-		92: {
+		"92": {
 			index: 92,
 			size: 1,
 		},
-		100: {
+		"100": {
 			index: 100,
 			size: 1,
 		},
-		101: {
+		"101": {
 			index: 101,
 			size: 4,
 		},
-		102: {
+		"102": {
 			index: 102,
 			size: 1,
 		},
-		103: {
+		"103": {
 			index: 103,
 			size: 1,
 		},
-		110: {
+		"110": {
 			index: 110,
 			size: 1,
 		},
-		111: {
+		"111": {
 			index: 111,
 			size: 4,
 		},
-		112: {
+		"112": {
 			index: 112,
 			size: 4,
 		},
-		113: {
+		"113": {
 			index: 113,
 			size: 4,
 		},
-		120: {
+		"120": {
 			index: 120,
 			size: 1,
 		},
-		121: {
+		"121": {
 			index: 121,
 			size: 1,
 		},
-		122: {
+		"122": {
 			index: 122,
 			size: 1,
 		},
-		123: {
+		"123": {
 			index: 123,
 			size: 1,
 		},
-		124: {
+		"124": {
 			index: 124,
 			size: 1,
 		},
-		125: {
+		"125": {
 			index: 125,
 			size: 1,
 		},
-		128: {
+		"128": {
 			index: 128,
 			size: 1,
 		},
-		129: {
+		"129": {
 			index: 129,
 			size: 1,
 		},
-		130: {
+		"130": {
 			index: 130,
 			size: 1,
 		},
-		131: {
+		"131": {
 			index: 131,
 			size: 1,
 		},
-		132: {
+		"132": {
 			index: 132,
 			size: 1,
 		},
-		249: {
+		"249": {
 			index: 249,
 			size: 1,
 		},
-		252: {
+		"252": {
 			index: 252,
 			size: 1,
 		},
-		255: {
+		"255": {
 			index: 255,
 			size: 4,
 		},

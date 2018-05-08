@@ -49,7 +49,7 @@
 	},
 	"settings": [
 		{
-			"id": 1,
+			"id": "1",
 			"value": "0",
 			"label": {
 				"en": "Turn contact alarm on",
@@ -75,7 +75,7 @@
 			"type": "dropdown"
 		},
 		{
-			"id": 101,
+			"id": "101",
 			"value": true,
 			"label": {
 				"en": "Enable/disable battery check interval",
@@ -84,7 +84,7 @@
 			"type": "checkbox"
 		},
 		{
-			"id": 111,
+			"id": "111",
 			"value": 86640,
 			"label": {
 				"en": "Low battery checking interval",
@@ -102,7 +102,7 @@
 			"type": "number"
 		},
 		{
-			"id": 39,
+			"id": "39",
 			"value": 20,
 			"label": {
 				"en": "Low battery value",

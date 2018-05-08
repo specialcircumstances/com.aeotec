@@ -20,179 +20,179 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 		},
 	},
 	settings: {
-		32: {
+		"32": {
 			index: 32,
 			size: 1,
 		},
-		34: {
+		"34": {
 			index: 34,
 			size: 1,
 		},
-		371: {
+		"371": {
 			index: 37,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
 				Number(input),
-				Number(newSettings[372]),
-				Number(newSettings[373]),
-				Number(newSettings[374]),
+				Number(newSettings["372"]),
+				Number(newSettings["373"]),
+				Number(newSettings["374"]),
 			]),
 		},
-		372: {
+		"372": {
 			index: 37,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[371]),
+				Number(newSettings["371"]),
 				Number(input),
-				Number(newSettings[373]),
-				Number(newSettings[374]),
+				Number(newSettings["373"]),
+				Number(newSettings["374"]),
 			]),
 		},
-		373: {
+		"373": {
 			index: 37,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[371]),
-				Number(newSettings[372]),
+				Number(newSettings["371"]),
+				Number(newSettings["372"]),
 				Number(input),
-				Number(newSettings[374]),
+				Number(newSettings["374"]),
 			]),
 		},
-		374: {
+		"374": {
 			index: 37,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[371]),
-				Number(newSettings[372]),
-				Number(newSettings[373]),
+				Number(newSettings["371"]),
+				Number(newSettings["372"]),
+				Number(newSettings["373"]),
 				Number(input),
 			]),
 		},
-		381: {
+		"381": {
 			index: 38,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
 				Number(input),
-				Number(newSettings[382]),
-				Number(newSettings[383]),
-				Number(newSettings[384]),
+				Number(newSettings["382"]),
+				Number(newSettings["383"]),
+				Number(newSettings["384"]),
 			]),
 		},
-		382: {
+		"382": {
 			index: 38,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[381]),
+				Number(newSettings["381"]),
 				Number(input),
-				Number(newSettings[383]),
-				Number(newSettings[384]),
+				Number(newSettings["383"]),
+				Number(newSettings["384"]),
 			]),
 		},
-		383: {
+		"383": {
 			index: 38,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[381]),
-				Number(newSettings[382]),
+				Number(newSettings["381"]),
+				Number(newSettings["382"]),
 				Number(input),
-				Number(newSettings[384]),
+				Number(newSettings["384"]),
 			]),
 		},
-		384: {
+		"384": {
 			index: 38,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[381]),
-				Number(newSettings[382]),
-				Number(newSettings[383]),
+				Number(newSettings["381"]),
+				Number(newSettings["382"]),
+				Number(newSettings["383"]),
 				Number(input),
 			]),
 		},
-		391: {
+		"391": {
 			index: 39,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
 				Number(input),
-				Number(newSettings[392]),
-				Number(newSettings[393]),
-				Number(newSettings[394]),
+				Number(newSettings["392"]),
+				Number(newSettings["393"]),
+				Number(newSettings["394"]),
 			]),
 		},
-		392: {
+		"392": {
 			index: 39,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[391]),
+				Number(newSettings["391"]),
 				Number(input),
-				Number(newSettings[393]),
-				Number(newSettings[394]),
+				Number(newSettings["393"]),
+				Number(newSettings["394"]),
 			]),
 		},
-		393: {
+		"393": {
 			index: 39,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[391]),
-				Number(newSettings[392]),
+				Number(newSettings["391"]),
+				Number(newSettings["392"]),
 				Number(input),
-				Number(newSettings[394]),
+				Number(newSettings["394"]),
 			]),
 		},
-		394: {
+		"394": {
 			index: 39,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[391]),
-				Number(newSettings[392]),
-				Number(newSettings[393]),
+				Number(newSettings["391"]),
+				Number(newSettings["392"]),
+				Number(newSettings["393"]),
 				Number(input),
 			]),
 		},
-		401: {
+		"401": {
 			index: 40,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
 				Number(input),
-				Number(newSettings[402]),
-				Number(newSettings[403]),
-				Number(newSettings[404]),
+				Number(newSettings["402"]),
+				Number(newSettings["403"]),
+				Number(newSettings["404"]),
 			]),
 		},
-		402: {
+		"402": {
 			index: 40,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[401]),
+				Number(newSettings["401"]),
 				Number(input),
-				Number(newSettings[403]),
-				Number(newSettings[404]),
+				Number(newSettings["403"]),
+				Number(newSettings["404"]),
 			]),
 		},
-		403: {
+		"403": {
 			index: 40,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[401]),
-				Number(newSettings[402]),
+				Number(newSettings["401"]),
+				Number(newSettings["402"]),
 				Number(input),
-				Number(newSettings[404]),
+				Number(newSettings["404"]),
 			]),
 		},
-		404: {
+		"404": {
 			index: 40,
 			size: 4,
 			parser: (input, newSettings) => new Buffer([
-				Number(newSettings[401]),
-				Number(newSettings[402]),
-				Number(newSettings[403]),
+				Number(newSettings["401"]),
+				Number(newSettings["402"]),
+				Number(newSettings["403"]),
 				Number(input),
 			]),
 		},
-		80: {
+		"80": {
 			index: 80,
 			size: 1,
 		},
-		241: {
+		"241": {
 			index: 241,
 			size: 4,
 			parser: input => {

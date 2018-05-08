@@ -8,7 +8,7 @@ const ZwaveDriver = require('homey-zwavedriver');
 module.exports = new ZwaveDriver(path.basename(__dirname), {
 	capabilities: {},
 	settings: {
-		82: {
+		"82": {
 			index: 82,
 			size: 1,
 			parser: value => new Buffer([Number(!value)]),

@@ -22,12 +22,12 @@
 		],
 		"defaultConfiguration": [
 			{
-				"id": 101,
+				"id": "101",
 				"size": 1,
 				"value": 1
 			},
 			{
-				"id": 121,
+				"id": "121",
 				"size": 4,
 				"value": 16
 			}
@@ -44,7 +44,7 @@
 	},
 	"settings": [
 		{
-			"id": 1,
+			"id": "1",
 			"type": "dropdown",
 			"value": "0",
 			"label": {
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"id": 101,
+			"id": "101",
 			"type": "checkbox",
 			"label": {
 				"en": "Low battery warning",

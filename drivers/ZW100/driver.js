@@ -131,69 +131,69 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 		},
 	},
 	settings: {
-		2: {
+		"2": {
 			index: 2,
 			size: 1,
 		},
-		4: {
+		"4": {
 			index: 4,
 			size: 1,
 		},
-		3: {
+		"3": {
 			index: 3,
 			size: 2,
 		},
-		39: {
+		"39": {
 			index: 39,
 			size: 1,
 		},
-		40: {
+		"40": {
 			index: 40,
 			size: 1,
 		},
-		41: {
+		"41": {
 			index: 41,
 			size: 2,
 			parser: value => new Buffer([Math.round(value * 10), 1]),
 		},
-		42: {
+		"42": {
 			index: 42,
 			size: 1,
 		},
-		43: {
+		"43": {
 			index: 43,
 			size: 2,
 		},
-		44: {
+		"44": {
 			index: 44,
 			size: 1,
 		},
-		45: {
+		"45": {
 			index: 45,
 			size: 1,
 		},
-		81: {
+		"81": {
 			index: 81,
 			size: 1,
 		},
-		111: {
+		"111": {
 			index: 111,
 			size: 4,
 		},
-		201: {
+		"201": {
 			index: 201,
 			size: 2,
 			parser: value => new Buffer([Math.round(value * 10), 1]),
 		},
-		202: {
+		"202": {
 			index: 202,
 			size: 1,
 		},
-		203: {
+		"203": {
 			index: 203,
 			size: 2,
 		},
-		204: {
+		"204": {
 			index: 204,
 			size: 1,
 		},

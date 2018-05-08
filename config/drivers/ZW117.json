@@ -45,7 +45,7 @@
 	},
 	"settings": [
 		{
-			"id": 82,
+			"id": "82",
 			"value": true,
 			"label": {
 				"en": "Status LED",

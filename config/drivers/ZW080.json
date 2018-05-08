@@ -17,7 +17,7 @@
 		},
 		"defaultConfiguration": [
 			{
-				"id": 80,
+				"id": "80",
 				"size": 1,
 				"value": 2
 			}
@@ -52,7 +52,7 @@
 	},
 	"settings": [
 		{
-			"id": 37,
+			"id": "37",
 			"type": "dropdown",
 			"label": {
 				"en": "Siren sound and volume",

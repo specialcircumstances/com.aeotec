@@ -103,98 +103,98 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
   },
   settings: {
     // Energy Detection Mode for para 101 to 103
-    2: {
+    "2": {
       index: 2,
       size: 1,
     },
     // Enable/disable selective reporting only when power change reaches a
     // certain threshold or percentage
-    3: {
+    "3": {
       index: 3,
       size: 1,
     },
     // Threshold change in wattage to induce a automatic report Whole HEM
-    4: {
+    "4": {
       index: 4,
       size: 2,
     },
     // Threshold change in wattage to induce a automatic report P1
-    5: {
+    "5": {
       index: 5,
       size: 2,
     },
     // Threshold change in wattage to induce a automatic report P2
-    6: {
+    "6": {
       index: 6,
       size: 2,
     },
     // Threshold change in wattage to induce a automatic report P3
-    7: {
+    "7": {
       index: 7,
       size: 2,
     },
     // Percentage change in wattage to induce a automatic report Whole HEM
-    8: {
+    "8": {
       index: 8,
       size: 1,
     },
     // Percentage change in wattage to induce a automatic report P1
-    9: {
+    "9": {
       index: 9,
       size: 1,
     },
     // Percentage change in wattage to induce a automatic report P2
-    10: {
+    "10": {
       index: 10,
       size: 1,
     },
     // Percentage change in wattage to induce a automatic report P3
-    11: {
+    "11": {
       index: 11,
       size: 1
     },
     // To set which report need to be sent in Report group 1
-    101: {
+    "101": {
       index: 101,
       size: 4,
     },
     // To set which report need to be sent in Report group 2
-    102: {
+    "102": {
       index: 102,
       size: 4,
     },
     // To set which report need to be sent in Report group 3
-    103: {
+    "103": {
       index: 103,
       size: 4,
     },
     // Set the interval time of sending report in Report group 1.
-    111: {
+    "111": {
       index: 111,
       size: 4,
     },
     // Set the interval time of sending report in Report group 2.
-    112: {
+    "112": {
       index: 112,
       size: 4,
     },
     // Set the interval time of sending report in Report group 1.
-    113: {
+    "113": {
       index: 113,
       size: 4,
     },
     // Partner ID
-    200: {
+    "200": {
       index: 200,
       size: 1
     },
     // Enable/Disable Lock Configuration
-    252: {
+    "252": {
       index: 252,
       size: 4
     },
     // Reset to Factory Defaults
-    255: {
+    "255": {
       index: 252,
       size: 4
     },

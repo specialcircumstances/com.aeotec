@@ -46,7 +46,7 @@
     "measure_current"
   ],
   "settings": [{
-      "id": 2,
+      "id": "2",
       "type": "dropdown",
       "value": "1",
       "label": {
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "value": true,
       "label": {
         "en": "Enable/disable selective reporting only when power change reaches a certain threshold or percentage"
@@ -83,7 +83,7 @@
       "type": "checkbox"
     },
     {
-      "id": 4,
+      "id": "4",
       "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Whole HEM"
@@ -99,7 +99,7 @@
       "type": "number"
     },
     {
-      "id": 5,
+      "id": "5",
       "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Clamp 1"
@@ -115,7 +115,7 @@
       "type": "number"
     },
     {
-      "id": 6,
+      "id": "6",
       "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Clamp 2"
@@ -131,7 +131,7 @@
       "type": "number"
     },
     {
-      "id": 7,
+      "id": "7",
       "value": 100,
       "label": {
         "en": "Threshold change in W to induce a automatic report - Clamp 3"
@@ -147,7 +147,7 @@
       "type": "number"
     },
     {
-      "id": 8,
+      "id": "8",
       "value": 80,
       "label": {
         "en": "Percentage change in W to induce a automatic report - Whole HEM"
@@ -163,7 +163,7 @@
       "type": "number"
     },
     {
-      "id": 9,
+      "id": "9",
       "value": 80,
       "label": {
         "en": "Percentage change in W to induce a automatic report - Clamp 1"
@@ -179,7 +179,7 @@
       "type": "number"
     },
     {
-      "id": 10,
+      "id": "10",
       "value": 80,
       "type": "number",
       "label": {
@@ -195,7 +195,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "value": 80,
       "label": {
         "en": "Percentage change in W to induce a automatic report - Clamp 3"
@@ -211,7 +211,7 @@
       "type": "number"
     },
     {
-      "id": 101,
+      "id": "101",
       "value": 258,
       "label": {
         "en": "Group 1 Reports"
@@ -223,7 +223,7 @@
       "type": "number"
     },
     {
-      "id": 102,
+      "id": "102",
       "value": 589835,
       "label": {
         "en": "Group 2 Reports"
@@ -235,7 +235,7 @@
       "type": "number"
     },
     {
-      "id": 103,
+      "id": "103",
       "value": 2049,
       "label": {
         "en": "Group 3 Reports"
@@ -248,7 +248,7 @@
     },
 
     {
-      "id": 111,
+      "id": "111",
       "value": 300,
       "label": {
         "en": "Set the interval time of sending report."
@@ -260,7 +260,7 @@
       "type": "number"
     },
     {
-      "id": 112,
+      "id": "112",
       "value": 300,
       "label": {
         "en": "Set the interval time of sending report."
@@ -272,7 +272,7 @@
       "type": "number"
     },
     {
-      "id": 113,
+      "id": "113",
       "value": 300,
       "label": {
         "en": "Set the interval time of sending report."
@@ -285,7 +285,7 @@
     },
 
     {
-      "id": 200,
+      "id": "200",
       "value": false,
       "label": {
         "en": "Partner  ID"
@@ -297,7 +297,7 @@
       "type": "checkbox"
     },
     {
-      "id": 252,
+      "id": "252",
       "value": false,
       "label": {
         "en": "Enable/Disable Lock Configuration"
@@ -309,7 +309,7 @@
       "type": "checkbox"
     },
     {
-      "id": 255,
+      "id": "255",
       "value": false,
       "label": {
         "en": "Reset to default factory setting"

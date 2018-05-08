@@ -35,17 +35,17 @@
 		],
 		"defaultConfiguration": [
 			{
-				"id": 80,
+				"id": "80",
 				"value": 3,
 				"size": 1
 			},
 			{
-				"id": 90,
+				"id": "90",
 				"size": 1,
 				"value": 1
 			},
 			{
-				"id": 92,
+				"id": "92",
 				"size": 1,
 				"value": 30
 			}
@@ -53,7 +53,7 @@
 	},
 	"settings": [
 		{
-			"id": 20,
+			"id": "20",
 			"type": "dropdown",
 			"label": {
 				"en": "Configure the output load status after re-power",
@@ -89,7 +89,7 @@
 			]
 		},
 		{
-			"id": 81,
+			"id": "81",
 			"type": "dropdown",
 			"label": {
 				"en": "Reports to association group 3",
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"id": 82,
+			"id": "82",
 			"type": "dropdown",
 			"label": {
 				"en": "Reports to association group 4",
@@ -147,7 +147,7 @@
 			]
 		},
 		{
-			"id": 120,
+			"id": "120",
 			"type": "dropdown",
 			"label": {
 				"en": "Switch type input 1",
@@ -186,7 +186,7 @@
 			]
 		},
 		{
-			"id": 121,
+			"id": "121",
 			"type": "dropdown",
 			"label": {
 				"en": "Switch type input 2",

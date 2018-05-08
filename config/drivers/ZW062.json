@@ -20,12 +20,12 @@
 		],
 		"defaultConfiguration": [
 			{
-				"id": 32,
+				"id": "32",
 				"value": 0,
 				"size": 1
 			},
 			{
-				"id": 80,
+				"id": "80",
 				"value": 2,
 				"size": 1
 			}
@@ -41,7 +41,7 @@
 	},
 	"settings": [
 		{
-			"id": 32,
+			"id": "32",
 			"type": "checkbox",
 			"label": {
 				"en": "Enable the start-up ringtone",
@@ -50,7 +50,7 @@
 			"value": false
 		},
 		{
-			"id": 34,
+			"id": "34",
 			"type": "checkbox",
 			"label": {
 				"en": "Send calibration command on save",
@@ -70,7 +70,7 @@
 			},
 			"children": [
 				{
-					"id": 371,
+					"id": "371",
 					"type": "number",
 					"label": {
 						"en": "LED blink frequency",
@@ -83,7 +83,7 @@
 					}
 				},
 				{
-					"id": 372,
+					"id": "372",
 					"type": "number",
 					"label": {
 						"en": "Sound number",
@@ -95,7 +95,7 @@
 					}
 				},
 				{
-					"id": 373,
+					"id": "373",
 					"type": "number",
 					"label": {
 						"en": "Sound volume",
@@ -108,7 +108,7 @@
 					}
 				},
 				{
-					"id": 374,
+					"id": "374",
 					"type": "checkbox",
 					"label": {
 						"en": "Alarm enabled",
@@ -126,7 +126,7 @@
 			},
 			"children": [
 				{
-					"id": 381,
+					"id": "381",
 					"type": "number",
 					"label": {
 						"en": "LED blink frequency",
@@ -139,7 +139,7 @@
 					}
 				},
 				{
-					"id": 382,
+					"id": "382",
 					"type": "number",
 					"label": {
 						"en": "Sound number",
@@ -151,7 +151,7 @@
 					}
 				},
 				{
-					"id": 383,
+					"id": "383",
 					"type": "number",
 					"label": {
 						"en": "Sound volume",
@@ -164,7 +164,7 @@
 					}
 				},
 				{
-					"id": 384,
+					"id": "384",
 					"type": "checkbox",
 					"label": {
 						"en": "Alarm enabled",
@@ -182,7 +182,7 @@
 			},
 			"children": [
 				{
-					"id": 391,
+					"id": "391",
 					"type": "number",
 					"label": {
 						"en": "LED blink frequency",
@@ -195,7 +195,7 @@
 					}
 				},
 				{
-					"id": 392,
+					"id": "392",
 					"type": "number",
 					"label": {
 						"en": "Sound number",
@@ -207,7 +207,7 @@
 					}
 				},
 				{
-					"id": 393,
+					"id": "393",
 					"type": "number",
 					"label": {
 						"en": "Sound volume",
@@ -220,7 +220,7 @@
 					}
 				},
 				{
-					"id": 394,
+					"id": "394",
 					"type": "checkbox",
 					"label": {
 						"en": "Alarm enabled",
@@ -238,7 +238,7 @@
 			},
 			"children": [
 				{
-					"id": 401,
+					"id": "401",
 					"type": "number",
 					"label": {
 						"en": "LED blink frequency",
@@ -251,7 +251,7 @@
 					}
 				},
 				{
-					"id": 402,
+					"id": "402",
 					"type": "number",
 					"label": {
 						"en": "Sound number",
@@ -263,7 +263,7 @@
 					}
 				},
 				{
-					"id": 403,
+					"id": "403",
 					"type": "number",
 					"label": {
 						"en": "Sound volume",
@@ -276,7 +276,7 @@
 					}
 				},
 				{
-					"id": 404,
+					"id": "404",
 					"type": "checkbox",
 					"label": {
 						"en": "Alarm enabled",
@@ -287,7 +287,7 @@
 			]
 		},
 		{
-			"id": 80,
+			"id": "80",
 			"type": "dropdown",
 			"label": {
 				"en": "Send following report when garage door state is changed",
@@ -310,7 +310,7 @@
 			]
 		},
 		{
-			"id": 241,
+			"id": "241",
 			"type": "checkbox",
 			"label": {
 				"en": "Send sensor pairing command on save",

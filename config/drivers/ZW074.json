@@ -20,27 +20,27 @@
 		],
 		"defaultConfiguration": [
 			{
-				"id": 5,
+				"id": "5",
 				"size": 1,
 				"value": 2
 			},
 			{
-				"id": 28,
+				"id": "28",
 				"size": 1,
 				"value": 1
 			},
 			{
-				"id": 41,
+				"id": "41",
 				"size": 2,
 				"value": 1290
 			},
 			{
-				"id": 43,
+				"id": "43",
 				"size": 2,
 				"value": 12800
 			},
 			{
-				"id": 111,
+				"id": "111",
 				"size": 4,
 				"value": 300
 			}
@@ -60,7 +60,7 @@
 	},
 	"settings": [
 		{
-			"id": 3,
+			"id": "3",
 			"type": "number",
 			"label": {
 				"en": "Motion cancellation (seconds)",
@@ -77,7 +77,7 @@
 			}
 		},
 		{
-			"id": 4,
+			"id": "4",
 			"type": "checkbox",
 			"label": {
 				"en": "Motion alarm",
@@ -90,7 +90,7 @@
 			"value": true
 		},
 		{
-			"id": 40,
+			"id": "40",
 			"type": "checkbox",
 			"label": {
 				"en": "Selective reporting",
@@ -103,7 +103,7 @@
 			"value": true
 		},
 		{
-			"id": 41,
+			"id": "41",
 			"type": "number",
 			"label": {
 				"en": "Temperature threshold",
@@ -120,7 +120,7 @@
 			}
 		},
 		{
-			"id": 42,
+			"id": "42",
 			"type": "number",
 			"label": {
 				"en": "Humidity threshold",
@@ -137,7 +137,7 @@
 			}
 		},
 		{
-			"id": 43,
+			"id": "43",
 			"type": "number",
 			"label": {
 				"en": "Luminance threshold",
@@ -154,7 +154,7 @@
 			}
 		},
 		{
-			"id": 44,
+			"id": "44",
 			"type": "number",
 			"label": {
 				"en": "Battery level threshold",
@@ -171,7 +171,7 @@
 			}
 		},
 		{
-			"id": 102,
+			"id": "102",
 			"type": "dropdown",
 			"label": {
 				"en": "Reports to association group 2",
@@ -242,7 +242,7 @@
 			]
 		},
 		{
-			"id": 103,
+			"id": "103",
 			"type": "dropdown",
 			"label": {
 				"en": "Reports to association group 3",
@@ -313,7 +313,7 @@
 			]
 		},
 		{
-			"id": 111,
+			"id": "111",
 			"type": "number",
 			"label": {
 				"en": "Unsolicited reports interval for Homey (group 1)",
@@ -330,7 +330,7 @@
 			}
 		},
 		{
-			"id": 112,
+			"id": "112",
 			"type": "number",
 			"label": {
 				"en": "Unsolicited reports interval for association group 2",
@@ -347,7 +347,7 @@
 			}
 		},
 		{
-			"id": 113,
+			"id": "113",
 			"type": "number",
 			"label": {
 				"en": "Unsolicited reports interval for association group 3",

@@ -18,37 +18,37 @@
 		],
 		"defaultConfiguration": [
 			{
-				"id": 3,
+				"id": "3",
 				"size": 1,
 				"value": 1
 			},
 			{
-				"id": 80,
+				"id": "80",
 				"size": 1,
 				"value": 2
 			},
 			{
-				"id": 90,
+				"id": "90",
 				"size": 1,
 				"value": 1
 			},
 			{
-				"id": 91,
+				"id": "91",
 				"size": 2,
 				"value": 25
 			},
 			{
-				"id": 92,
+				"id": "92",
 				"size": 1,
 				"value": 30
 			},
 			{
-				"id": 101,
+				"id": "101",
 				"size": 4,
 				"value": 12
 			},
 			{
-				"id": 111,
+				"id": "111",
 				"size": 4,
 				"value": 15
 			}
@@ -66,7 +66,7 @@
 	},
 	"settings": [
 		{
-			"id": 3,
+			"id": "3",
 			"type": "checkbox",
 			"label": {
 				"en": "Current overload protection",
@@ -79,7 +79,7 @@
 			}
 		},
 		{
-			"id": 20,
+			"id": "20",
 			"type": "dropdown",
 			"label": {
 				"en": "Configure the output load status after re-power",
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"id": 80,
+			"id": "80",
 			"type": "checkbox",
 			"label": {
 				"en": "Notify associated devices when Smart Switch is toggled",
@@ -128,7 +128,7 @@
 			"value": true
 		},
 		{
-			"id": 81,
+			"id": "81",
 			"type": "dropdown",
 			"label": {
 				"en": "Configure the behaviour of the LED",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"id": 91,
+			"id": "91",
 			"type": "number",
 			"label": {
 				"en": "Minimum wattage change needed before an update report is send",
@@ -181,7 +181,7 @@
 			}
 		},
 		{
-			"id": 92,
+			"id": "92",
 			"type": "number",
 			"label": {
 				"en": "Minimum wattage change (%) needed before an update report is send",
@@ -198,7 +198,7 @@
 			}
 		},
 		{
-			"id": 101,
+			"id": "101",
 			"type": "dropdown",
 			"label": {
 				"en": "Information reports send to association group 1",
@@ -255,7 +255,7 @@
 			]
 		},
 		{
-			"id": 102,
+			"id": "102",
 			"type": "dropdown",
 			"label": {
 				"en": "Information reports send to association group 2",
@@ -319,7 +319,7 @@
 			]
 		},
 		{
-			"id": 103,
+			"id": "103",
 			"type": "dropdown",
 			"label": {
 				"en": "Information reports send to association group 3",
@@ -383,7 +383,7 @@
 			]
 		},
 		{
-			"id": 111,
+			"id": "111",
 			"type": "number",
 			"label": {
 				"en": "Reporting interval association group 1",
@@ -400,7 +400,7 @@
 			"value": 15
 		},
 		{
-			"id": 112,
+			"id": "112",
 			"type": "number",
 			"label": {
 				"en": "Reporting interval association group 2",
@@ -417,7 +417,7 @@
 			"value": 600
 		},
 		{
-			"id": 113,
+			"id": "113",
 			"type": "number",
 			"label": {
 				"en": "Reporting interval association group 3",

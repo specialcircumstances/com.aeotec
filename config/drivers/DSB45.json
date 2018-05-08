@@ -19,7 +19,7 @@
 		],
 		"defaultConfiguration": [
 			{
-				"id": 121,
+				"id": "121",
 				"size": 4,
 				"value": 299
 			}
@@ -36,7 +36,7 @@
 	},
 	"settings": [
 		{
-			"id": 1,
+			"id": "1",
 			"type": "radio",
 			"value": "0",
 			"label": {
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"id": 121,
+			"id": "121",
 			"type": "dropdown",
 			"label": {
 				"en": "Information to send",
