@@ -12,6 +12,17 @@ const ZwaveDriver = require('homey-zwavedriver');
 // US version ??
 //Product Type ID: 0x0002
 //Product ID: 0x001C
+// Supported Meter Type 0x01 (Electric meter)
+// Meter Scales
+// kWh  0x00
+// kVAh 0x01
+// W    0x02
+// V    0x04
+// A    0x05
+// M.S.T. 0x07
+// when M.S.T.
+// kVar  0x00
+// kVarh 0x01
 
 module.exports = new ZwaveDriver(path.basename(__dirname), {
   debug: true,
