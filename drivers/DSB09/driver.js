@@ -53,54 +53,12 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
         }
         return null;
       }
-    },
-    measure_voltage: {
-      command_class: 'COMMAND_CLASS_METER',
-      command_get: 'METER_GET',
-      command_get_parser: () => ({
-        'Sensor Type': 'Electric meter',
-        'Properties1': {
-          'Scale': 4
-        }
-      }),
-      command_report: 'METER_REPORT',
-      command_report_parser: report => {
-        if (report.hasOwnProperty('Properties2') &&
-          report.Properties2.hasOwnProperty('Scale bits 10') &&
-          report.Properties2['Scale bits 10'] === 0 &&
-          report.Properties1.hasOwnProperty('Scale bit 2') &&
-          report.Properties1['Scale bit 2'] === true) {
-          return report['Meter Value (Parsed)'];
-        }
-        return null;
-      }
-    },
-    measure_current: {
-      command_class: 'COMMAND_CLASS_METER',
-      command_get: 'METER_GET',
-      command_get_parser: () => ({
-        'Sensor Type': 'Electric meter',
-        'Properties1': {
-          'Scale': 5
-        }
-      }),
-      command_report: 'METER_REPORT',
-      command_report_parser: report => {
-        if (report.hasOwnProperty('Properties2') &&
-          report.Properties2.hasOwnProperty('Scale bits 10') &&
-          report.Properties2['Scale bits 10'] === 1 &&
-          report.Properties1.hasOwnProperty('Scale bit 2') &&
-          report.Properties1['Scale bit 2'] === true ) {
-          return report['Meter Value (Parsed)'];
-        }
-        return null;
-      }
     }
   },
   settings: {
     // Energy Detection Mode for para 101 to 103
-    "2": {
-      index: 2,
+    "1": {
+      index: 1,
       size: 1,
     },
     // Enable/disable selective reporting only when power change reaches a

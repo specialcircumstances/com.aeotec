@@ -27,8 +27,7 @@
         "capabilities": [
           "measure_power",
           "meter_power",
-          "measure_voltage",
-          "measure_current"
+          "measure_battery"
         ],
         "name": {
           "en": "Clamp 01"
@@ -42,30 +41,32 @@
   "capabilities": [
     "measure_power",
     "meter_power",
-    "measure_voltage",
-    "measure_current"
+    "measure_battery"
   ],
-  "settings": [{
-      "id": "2",
+  "settings": [
+    {
+      "id": "1",
       "type": "dropdown",
-      "value": "1",
+      "value": "120V",
       "label": {
-        "en": "Energy detection mode for para 101-103."
+        "en": "Voltage to caculate wattage from amperage."
       },
       "hint": {
-        "en": "Set the energy detection mode for the measure reports of parameter 101 to 103."
+        "en": "Set the operating voltage. 120 for US and 240 for EU and ANZ."
       },
-      "_size": 1,
+      "_size": 2,
       "values": [{
-          "id": "0",
+          "id": "120V",
+          "value": 120,
           "label": {
-            "en": "Report power, report the absolute value of energy."
+            "en": "120V for US"
           }
         },
         {
-          "id": "1",
+          "id": "240V",
+          "value": 240,
           "label": {
-            "en": "Report positive/negative power, report the algebraic sum of energy."
+            "en": "240V for EU and ANZ"
           }
         }
       ]
@@ -212,7 +213,7 @@
     },
     {
       "id": "101",
-      "value": 258,
+      "value": 260,
       "label": {
         "en": "Group 1 Reports"
       },
@@ -224,7 +225,7 @@
     },
     {
       "id": "102",
-      "value": 589835,
+      "value": 0,
       "label": {
         "en": "Group 2 Reports"
       },
@@ -236,7 +237,7 @@
     },
     {
       "id": "103",
-      "value": 2049,
+      "value": 264,
       "label": {
         "en": "Group 3 Reports"
       },
